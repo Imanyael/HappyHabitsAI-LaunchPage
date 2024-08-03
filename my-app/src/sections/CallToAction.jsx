@@ -1,4 +1,31 @@
+import React, { useState } from 'react';
+import { supabase } from '../../supabaseClient.js';
+
 function CallToAction() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [excitementLevel, setExcitementLevel] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const { data, error } = await supabase
+      .from('waitlist')
+      .insert([
+        { name: name, email: email, excitement_level: excitementLevel }
+      ]);
+
+    if (error) {
+      setMessage('Error submitting the form. Please try again.');
+    } else {
+      setMessage('Thank you for joining the waitlist!');
+      setName('');
+      setEmail('');
+      setExcitementLevel('');
+    }
+  };
+
   return (
     <div className="callToActionContainer">
       <div className="Screen">
@@ -10,10 +37,26 @@ function CallToAction() {
           <br />
           <br />
           <div className="inputContainer">
-            <form>
-              <input type="text" placeholder="Name..." required />
-              <input type="email" placeholder="Email..." required />
-              <select required>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder="Name..."
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email..."
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+              <select
+                value={excitementLevel}
+                onChange={(e) => setExcitementLevel(e.target.value)}
+                required
+              >
                 <option value="">Select Excitement Level</option>
                 <option value="1">1 - Not Very Excited</option>
                 <option value="2">2 - Somewhat Excited</option>
@@ -25,6 +68,7 @@ function CallToAction() {
                 Join Waitlist
               </button>
             </form>
+            {message && <p className="form-message">{message}</p>}
           </div>
         </div>
         <br />
