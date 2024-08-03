@@ -2,7 +2,7 @@ function CallToAction() {
   return (
     <div className="callToActionContainer">
       <div className="Screen">
-        <div className="ctaContainer">
+        <div className="ctaContainer" id="waitlist">
           <h1 className="section-title white">Be First to Join</h1>
           <p className="section-desc white-desc">
             Sign up to get exclusive updates and early access.

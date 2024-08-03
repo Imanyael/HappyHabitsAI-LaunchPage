@@ -11,7 +11,9 @@ function Hero() {
           <br />
           health and boost self-confidence
         </p>
-        <button className="btn btn-headline">Join The Waitlist</button>
+        <a href="#waitlist">
+          <button className="btn btn-headline">Join The Waitlist</button>
+        </a>
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ function Steps() {
   return (
     <div className="Screen">
       <div className="stepsSection">
-        <p className="tag">Why Choose Us?</p>
+        <p className="tag" id="features">
+          Why Choose Us?
+        </p>
         <h1 className="section-title">The Ultimate Habit Tool</h1>
         <div className="stepsCardContainer">
           <div className="card">

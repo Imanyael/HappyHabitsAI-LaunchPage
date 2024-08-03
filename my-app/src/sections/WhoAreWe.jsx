@@ -5,7 +5,9 @@ function WhoAreWe() {
     <div className="Screen">
       <hr />
       <div className="whoAreWeSection">
-        <p className="tag">Who Is HappyHabits AI</p>
+        <p className="tag" id="whoAreWe">
+          Who Is HappyHabits AI
+        </p>
         <h1 className="section-title">Your Personalized Habit Builder</h1>
         <p className="section-desc sm">
           Unlock personalized habit formation with Happy Habits. Our AI-driven

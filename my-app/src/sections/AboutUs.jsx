@@ -4,7 +4,9 @@ function AboutUs() {
   return (
     <div className="Screen">
       <div className="aboutUsContainer">
-        <p className="tag">About Us</p>
+        <p className="tag" id="about">
+          About Us
+        </p>
         <div className="container">
           <div className="left">
             <h1 className="section-title lg">The Heart of Happy Habits</h1>

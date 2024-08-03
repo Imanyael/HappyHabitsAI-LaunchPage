@@ -8,7 +8,7 @@ function Header() {
       <div className="barContainer">
         <div className="bar">
           <p>Build your confidence</p>
-          <a href="#">
+          <a href="#waitlist">
             Sign Up For Our Waitlist
             <FontAwesomeIcon
               icon={faArrowRightLong}
@@ -24,9 +24,12 @@ function Header() {
           <h3>HAPPYHABITS</h3>
         </div>
         <nav>
-          <a href="#">About</a>
-          <a href="#">People</a>
-          <button className="btn btn-header">Join Waitlist</button>
+          <a href="#whoAreWe">Who Are We</a>
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#waitlist">
+            <button className="btn btn-header">Join Waitlist</button>
+          </a>
         </nav>
       </header>
     </div>
