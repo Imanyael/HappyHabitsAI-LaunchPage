@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/lgo.png";
 
 function Header() {
   return (

@@ -1,4 +1,4 @@
-import Placeholder from "../assets/placeholder-image.jpg";
+import Placeholder from "../assets/photo.png";
 
 function AboutUs() {
   return (
