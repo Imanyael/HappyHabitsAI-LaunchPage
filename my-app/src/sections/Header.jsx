@@ -24,9 +24,9 @@ function Header() {
           <h3>HAPPYHABITS</h3>
         </div>
         <nav>
-          <a href="#whoAreWe">Who Are We</a>
-          <a href="#features">Features</a>
           <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#about-us">Who Are We</a>
           <a href="#waitlist">
             <button className="btn btn-header">Join Waitlist</button>
           </a>
