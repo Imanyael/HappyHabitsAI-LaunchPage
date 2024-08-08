@@ -2,8 +2,8 @@
 
 #### 👋 Welcome
 
-  Welcome to <b>HappyHabits AI</b> – your AI-powered app designed to make building healthy habits easy and enjoyable. Our cutting-edge technology provides personalized recommendations and supports you in achieving your goals with ease.
-  
+Welcome to <b>HappyHabits AI</b> – your AI-powered app designed to make building healthy habits easy and enjoyable. Our cutting-edge technology provides personalized recommendations and supports you in achieving your goals with ease.
+
 #### 🎉 What’s In Progress
 
 - **Personalized Recommendations**: Our AI tailors habit suggestions to fit your needs and goals.
@@ -15,7 +15,6 @@
 1. **Explore Features**: Discover how HappyHabits AI can support your personal growth.
 2. **Join waitlist**: Join our community to get exclusive updates and early access.
 3. **Provide Feedback**: Share your thoughts and help us improve the app.
-   
 
 #### 🌐 Stay Connected
 
@@ -27,6 +26,6 @@ Thank you for joining us on this exciting journey. We look forward to helping yo
 
 ---
 
-HappyHabits AI Team
+#### 🍃 HappyHabits AI Team
 
-
+[ Ayesha B, Yazmyn S, Iman S, Bee S, Anusha C, Juweriya N]
