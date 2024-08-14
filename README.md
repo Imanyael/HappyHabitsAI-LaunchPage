@@ -20,7 +20,12 @@ Welcome to <b>HappyHabits AI</b> – your AI-powered app designed to make buildi
 
 - [Visit Our Website](https://happyhabitsai.netlify.app/)
 - [Follow Us on Linkedin](https://www.linkedin.com/company/happy-habits-ai/about/)
-- [Contact Us (WIP)](#)
+- Contact Us: happyhabitsai@gmail.com
+
+#### ⭐️ Credits
+
+- Logo Designer: Josefine Hammarström Helén
+- Instagram: https://www.instagram.com/studio.jossan/
 
 Thank you for joining us on this exciting journey. We look forward to helping you achieve your goals with HappyHabits AI!
 
